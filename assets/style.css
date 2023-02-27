@@ -35,6 +35,33 @@ figure {
 #highlight {
     background-color: yellow;
 }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    background-color: #b1e5f2;
+    
+}  
+#head {
+    background-color: #20a9e5;
+    color: white;
+    height: 20px;
+    font-weight: 800;
+}
+.small {
+    width: 24%;
+    height: 55px;
+}
+    
+.large {
+    width: 50%;
+     height: 55px;
+}
+
+#white {
+    background-color: white;
+}
+
 aside > div {
     width: auto;
     height: 200px;
