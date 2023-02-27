@@ -19,7 +19,7 @@ h1 {
     font-size: 40pt;
 }
 
-#article-author, #article-date{
+#article-author, #article-date, h2{
     color: #787878;
 }
 
@@ -32,3 +32,22 @@ figure {
     margin-left: 0%;
 }
 
+aside > div {
+    width: auto;
+    height: 200px;
+    background-repeat: no-repeat;
+} 
+
+#first {
+    background-image: url(../img/monitor.jpg);
+}
+
+#second {
+    background-image: url(../img/graph.jpg);
+}
+
+.relatedlinks {
+    color: white;
+    font-size: 20pt;
+    font-weight: 800;
+}
