@@ -6,10 +6,24 @@
     background-color: #4ea0ff;
     background-size: 400px;
 }
+
 .logo {
     width: 180px;
     height: 100%;
     background-image: url(../img/logo.svg);
     background-repeat: no-repeat;
     background-position: bottom;
+}
+
+h1 {
+    font-size: 40pt;
+}
+
+#article-author, #article-date{
+    color: #787878;
+}
+
+a {
+    color: #16a5e3;
+    text-decoration: none;
 }
